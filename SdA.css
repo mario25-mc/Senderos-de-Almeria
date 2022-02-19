@@ -1,0 +1,180 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    background-color: #ffffff;
+}
+
+header {
+height: 100vh;
+background-image:linear-gradient(135deg, rgb(253, 252, 251, 0.2) 0%, rgb(226, 209, 195, 0.3) 100%), url(https://susaflyblog.files.wordpress.com/2019/08/img_8055.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px ;
+}
+
+.menu ul.menu-sections {
+    flex: 1;
+    margin-left: 150px;
+    padding: 0 50px;
+}
+
+.section-title {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.menu {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    padding: 15px;
+    align-items: center;
+    position: fixed;
+    background-position: 1000px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.menu ul li {
+    padding: 10px;
+    padding-right: 25px;
+}
+
+.menu ul li a:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: justify;
+    margin-top: 100px;
+    font-size: larger;
+    margin-left: 300px;
+    width: 930px;
+    height: 1078px;
+    float: left;
+    margin-bottom: 100px;
+}
+
+.container a {
+    text-decoration: none;
+    color: rgb(19, 151, 19);
+}
+
+.description {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.date {
+    font-size: large;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+}
+
+.caminoDelNacimiento img {
+    height: 500px;
+    width: 850px;
+}
+
+.description-title a {
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.logo {
+    margin-left: 60px;
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    margin-top: -3px;
+}
+
+.pageBranding {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pageTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-shadow: rgba(0, 0, 0, 0.6) 5px 5px;
+}
+
+.pageSubtitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-shadow: rgba(0, 0, 0, 0.6) 3px 3px;
+}
+
+.lateral-menu ul {
+    list-style: none;
+}
+
+.lateral-menu {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    text-align: justify;
+    width: 269px;
+    height: 980px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.lateral-menu h5 {
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.lateral-menu-section {
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.lateral-menu a {
+    text-decoration: none;
+    color: rgb(19, 151, 19);
+}
+
